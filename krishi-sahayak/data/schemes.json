@@ -1,0 +1,163 @@
+[
+  {
+    "id": "pm_kisan",
+    "name": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+    "category": "Income Support",
+    "level": "Central",
+    "eligibility": {
+      "land_ownership": "Must own cultivable agricultural land (any size)",
+      "farmer_type": ["small", "marginal", "large"],
+      "exclusions": ["institutional land owners", "families with any member who is/was a constitutional post holder, minister, MP, MLA", "families with any member who is an income-tax payee in the last assessment year", "families with any member drawing a monthly pension of Rs 10,000 or more (except MTS/Class IV/Group D employees)"],
+      "state_restriction": "All states except where local land records are not digitized"
+    },
+    "benefit": "Rs 6,000 per year in three equal installments of Rs 2,000, transferred directly to bank account",
+    "documents_required": ["Aadhaar card", "land ownership records (khasra/khatauni)", "bank account passbook"],
+    "application_process": "Apply online at pmkisan.gov.in or through Common Service Centre (CSC) or local revenue/agriculture officer"
+  },
+  {
+    "id": "pmfby",
+    "name": "PMFBY (Pradhan Mantri Fasal Bima Yojana)",
+    "category": "Crop Insurance",
+    "level": "Central",
+    "eligibility": {
+      "farmer_type": ["loanee farmers (compulsory)", "non-loanee farmers (voluntary)"],
+      "crop_type": "Must be a notified crop for the notified area for that season",
+      "land_ownership": "Both landowner and tenant/sharecropper farmers eligible with proper documentation"
+    },
+    "benefit": "Insurance cover against crop loss due to natural calamities, pests, diseases. Premium: 2% for Kharif crops, 1.5% for Rabi crops, 5% for commercial/horticultural crops; balance subsidized by government",
+    "documents_required": ["Aadhaar card", "land records or tenancy agreement", "bank account details", "sowing certificate"],
+    "application_process": "Apply through bank (if loanee, automatic), CSC, insurance company portal, or pmfby.gov.in before the cutoff date for that crop season"
+  },
+  {
+    "id": "kcc",
+    "name": "Kisan Credit Card (KCC)",
+    "category": "Credit / Loan",
+    "level": "Central",
+    "eligibility": {
+      "farmer_type": ["individual farmers", "joint borrowers who are owner cultivators", "tenant farmers", "oral lessees", "sharecroppers", "SHGs or joint liability groups of farmers"],
+      "age": "18 to 75 years (co-borrower required if above 60)",
+      "land_ownership": "Not mandatory for tenant farmers/sharecroppers if proper certification available"
+    },
+    "benefit": "Short-term credit up to Rs 3 lakh at subsidized interest (effective ~4% with prompt repayment incentive), covers crop production, post-harvest expenses, and allied activities",
+    "documents_required": ["Aadhaar card", "land records or tenancy proof", "identity and address proof", "passport photo"],
+    "application_process": "Apply at any nationalized/cooperative/regional rural bank branch or via KCC saturation drives"
+  },
+  {
+    "id": "soil_health_card",
+    "name": "Soil Health Card Scheme",
+    "category": "Advisory / Input Support",
+    "level": "Central",
+    "eligibility": {
+      "farmer_type": ["all farmers"],
+      "land_ownership": "Any landholding size, ownership not verified strictly"
+    },
+    "benefit": "Free soil testing every 2 years with crop-wise fertilizer and nutrient recommendations to improve yield and reduce input cost",
+    "documents_required": ["Aadhaar card (for registration)", "land parcel details"],
+    "application_process": "Contact local Krishi Vigyan Kendra (KVK) or agriculture department office, or register at soilhealth.dac.gov.in"
+  },
+  {
+    "id": "pmksy",
+    "name": "PMKSY (Pradhan Mantri Krishi Sinchayee Yojana) - Micro Irrigation",
+    "category": "Irrigation Subsidy",
+    "level": "Central + State",
+    "eligibility": {
+      "farmer_type": ["small", "marginal", "large farmers with own or leased land"],
+      "land_ownership": "Land ownership or valid lease document required"
+    },
+    "benefit": "Subsidy of 55% (small/marginal) or 45% (other farmers) on drip/sprinkler irrigation equipment cost",
+    "documents_required": ["Aadhaar card", "land records", "bank account details", "quotation from empanelled irrigation equipment supplier"],
+    "application_process": "Apply through state horticulture/agriculture department portal or district agriculture office"
+  },
+  {
+    "id": "enam",
+    "name": "e-NAM (National Agriculture Market)",
+    "category": "Market Access",
+    "level": "Central",
+    "eligibility": {
+      "farmer_type": ["all farmers", "traders", "FPOs"],
+      "land_ownership": "Not required"
+    },
+    "benefit": "Online trading platform giving access to pan-India buyers, transparent price discovery, reduced dependence on local middlemen",
+    "documents_required": ["Aadhaar card", "bank account details", "mandi registration (via local APMC)"],
+    "application_process": "Register at enam.gov.in or through local APMC mandi with e-NAM facility"
+  },
+  {
+    "id": "fpo_scheme",
+    "name": "Formation and Promotion of 10,000 FPOs",
+    "category": "Farmer Producer Organization Support",
+    "level": "Central",
+    "eligibility": {
+      "farmer_type": ["group of at least 11 farmers willing to form a Farmer Producer Organization"],
+      "land_ownership": "Not individually required, group-based"
+    },
+    "benefit": "Financial assistance up to Rs 18 lakh per FPO over 3 years, equity grant up to Rs 15 lakh, credit guarantee up to Rs 2 crore per FPO",
+    "documents_required": ["List of member farmers with Aadhaar", "proposed FPO business plan", "bank account of FPO"],
+    "application_process": "Apply through Implementing Agencies (SFAC, NABARD, NCDC) or state nodal agency"
+  },
+  {
+    "id": "pkvy",
+    "name": "PKVY (Paramparagat Krishi Vikas Yojana) - Organic Farming",
+    "category": "Organic Farming Support",
+    "level": "Central",
+    "eligibility": {
+      "farmer_type": ["farmers willing to form/join a cluster of minimum 20 hectares (50 farmers) for organic conversion"],
+      "land_ownership": "Own or leased land under cultivation"
+    },
+    "benefit": "Financial assistance of Rs 50,000 per hectare over 3 years for organic inputs, certification, and value addition",
+    "documents_required": ["Aadhaar card", "land records", "cluster group registration"],
+    "application_process": "Apply through state agriculture department or local KVK organic farming cell"
+  },
+  {
+    "id": "state_crop_loan_waiver_generic",
+    "name": "State Crop Loan Waiver Scheme (varies by state)",
+    "category": "Debt Relief",
+    "level": "State",
+    "eligibility": {
+      "farmer_type": ["small and marginal farmers with outstanding crop loans as of the scheme cutoff date"],
+      "land_ownership": "Landholding limit varies by state (commonly up to 5 acres)",
+      "state_restriction": "Only applicable in states that have announced an active waiver scheme; terms vary significantly by state"
+    },
+    "benefit": "Full or partial waiver of outstanding short-term crop loans, amount and cap varies by state (commonly Rs 1-2 lakh cap)",
+    "documents_required": ["Loan account details", "Aadhaar card", "land records"],
+    "application_process": "Automatic verification through bank/cooperative society records, or apply at local revenue office; check specific state agriculture department notification"
+  },
+  {
+    "id": "pm_fme",
+    "name": "PM Formalisation of Micro Food Processing Enterprises (PM-FME)",
+    "category": "Agri-Business / Food Processing",
+    "level": "Central",
+    "eligibility": {
+      "farmer_type": ["individual micro food processing units", "FPOs", "SHGs", "cooperatives engaged in food processing"],
+      "land_ownership": "Not mandatory, business/processing activity is the criterion"
+    },
+    "benefit": "Credit-linked subsidy of 35% of eligible project cost (max Rs 10 lakh per unit) for upgrading micro food processing enterprises",
+    "documents_required": ["Aadhaar card", "business registration/udyam registration if available", "bank account details", "project report"],
+    "application_process": "Apply through state nodal agency or pmfme.mofpi.gov.in portal"
+  },
+  {
+    "id": "agri_infra_fund",
+    "name": "Agriculture Infrastructure Fund (AIF)",
+    "category": "Infrastructure Credit",
+    "level": "Central",
+    "eligibility": {
+      "farmer_type": ["individual farmers", "FPOs", "PACS", "marketing cooperatives", "SHGs", "agri-entrepreneurs", "state agencies"],
+      "land_ownership": "Required for the infrastructure project site (owned or leased)"
+    },
+    "benefit": "Interest subvention of 3% on loans up to Rs 2 crore for post-harvest management infrastructure (warehouses, cold storage, etc.), credit guarantee coverage available",
+    "documents_required": ["Aadhaar/business registration", "project report", "land documents for the facility", "bank account details"],
+    "application_process": "Apply through participating banks or the AIF online portal (agriinfra.dac.gov.in)"
+  },
+  {
+    "id": "rkvy",
+    "name": "RKVY (Rashtriya Krishi Vikas Yojana)",
+    "category": "State Agri Development Support",
+    "level": "Central + State (state-implemented)",
+    "eligibility": {
+      "farmer_type": ["farmers, FPOs, entrepreneurs proposing agri/allied sector projects under state annual action plan"],
+      "land_ownership": "Depends on specific sub-scheme/project component chosen by state"
+    },
+    "benefit": "Varies by state and project component; typically capital subsidy for agri-infrastructure, mechanization, or value chain projects",
+    "documents_required": ["Varies by state; generally Aadhaar, land records, project proposal"],
+    "application_process": "Apply through state agriculture department as per the state's RKVY annual action plan"
+  }
+]

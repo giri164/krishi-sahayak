@@ -1,0 +1,63 @@
+[
+  {
+    "id": "t1",
+    "query": "I own 2 acres in Punjab, grow wheat, and no one in my family is a government employee, taxpayer, or pensioner. What can I get?",
+    "expected_scheme_id": "pm_kisan",
+    "should_ask_clarification": false
+  },
+  {
+    "id": "t2",
+    "query": "I am a farmer and I heard there's some scheme, what can I get?",
+    "expected_scheme_id": null,
+    "should_ask_clarification": true
+  },
+  {
+    "id": "t3",
+    "query": "I took a crop loan this season for cotton in Maharashtra. Is there insurance if my crop fails?",
+    "expected_scheme_id": "pmfby",
+    "should_ask_clarification": false
+  },
+  {
+    "id": "t4",
+    "query": "My son is a government schoolteacher and pays income tax. I have 1 acre of land. Can I get PM-KISAN?",
+    "expected_scheme_id": null,
+    "should_ask_clarification": false,
+    "note": "should be correctly identified as INELIGIBLE, not recommended"
+  },
+  {
+    "id": "t5",
+    "query": "I am 40 years old, own 3 acres, and need a loan for buying seeds and fertilizer before sowing season.",
+    "expected_scheme_id": "kcc",
+    "should_ask_clarification": false
+  },
+  {
+    "id": "t6",
+    "query": "I want to test my soil to know what fertilizer to use. Is there a free government service for this?",
+    "expected_scheme_id": "soil_health_card",
+    "should_ask_clarification": false
+  },
+  {
+    "id": "t7",
+    "query": "I want to set up drip irrigation on my 5 acre farm but can't afford the full equipment cost.",
+    "expected_scheme_id": "pmksy",
+    "should_ask_clarification": false
+  },
+  {
+    "id": "t8",
+    "query": "Can you tell me about schemes for farmers?",
+    "expected_scheme_id": null,
+    "should_ask_clarification": true
+  },
+  {
+    "id": "t9",
+    "query": "I am part of a group of 12 farmers in Karnataka and we want to start selling our produce together with better bargaining power.",
+    "expected_scheme_id": "fpo_scheme",
+    "should_ask_clarification": false
+  },
+  {
+    "id": "t10",
+    "query": "I run a small food processing unit turning tomatoes into paste, and want to upgrade my equipment. Is there financial help?",
+    "expected_scheme_id": "pm_fme",
+    "should_ask_clarification": false
+  }
+]
