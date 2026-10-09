@@ -115,7 +115,7 @@ krishi-sahayak/
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/krishi-sahayak.git
+git clone https://github.com/giri164/krishi-sahayak.git
 ```
 
 Go into the project
